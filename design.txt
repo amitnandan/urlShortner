@@ -1,0 +1,19 @@
+Design a URL shortner service take a valid url and returns 
+a shortned URL , redirecting the user to the previously provided URL.
+
+Also keep track of the total visits / click on the URL
+
+ROutes 
+
+POST /URL - generate  a  new short URL and return the shortened URL in format example.com/random-id
+
+GET / :id - Redirecs the user to the original URL
+
+GET /URL/analytics/id - return the click for provided short id
+
+
+
+
+
+to create short new url -> using the package "shortid"
+
